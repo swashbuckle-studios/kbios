@@ -1,0 +1,6 @@
+framework module Pods_Karaban_KarabanUITests {
+  umbrella header "Pods-Karaban-KarabanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

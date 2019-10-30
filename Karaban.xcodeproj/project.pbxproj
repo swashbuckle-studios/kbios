@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		3DC52C2A236A2FAF007F14F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC52C28236A2FAF007F14F8 /* LaunchScreen.storyboard */; };
 		3DC52C35236A2FAF007F14F8 /* KarabanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C34236A2FAF007F14F8 /* KarabanTests.swift */; };
 		3DC52C40236A2FAF007F14F8 /* KarabanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C3F236A2FAF007F14F8 /* KarabanUITests.swift */; };
+		3DC52C50236A3BF5007F14F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */; };
+		479A2B89EF1AF4177951E6D1 /* Pods_Karaban_KarabanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120B2A9DABE1BDE73EAA0430 /* Pods_Karaban_KarabanUITests.framework */; };
+		95C2CD6BA99CB4B011335488 /* Pods_Karaban.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5AFA5570CD989F48EE158D /* Pods_Karaban.framework */; };
+		F566F314BFEEC464BF64A988 /* Pods_KarabanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF03D70275E9EEFB2EB434A /* Pods_KarabanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008A77699131BAE824604F69 /* Pods-Karaban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban.release.xcconfig"; path = "Target Support Files/Pods-Karaban/Pods-Karaban.release.xcconfig"; sourceTree = "<group>"; };
+		120B2A9DABE1BDE73EAA0430 /* Pods_Karaban_KarabanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaban_KarabanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FF015A8FA9F028D1B0A3BB /* Pods-Karaban-KarabanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban-KarabanUITests.release.xcconfig"; path = "Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3DC52C19236A2FAE007F14F8 /* Karaban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC52C1C236A2FAE007F14F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC52C1E236A2FAE007F14F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		3DC52C3B236A2FAF007F14F8 /* KarabanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarabanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC52C3F236A2FAF007F14F8 /* KarabanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarabanUITests.swift; sourceTree = "<group>"; };
 		3DC52C41236A2FAF007F14F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F6483CC12979C98E5ADEDC5 /* Pods-KarabanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarabanTests.debug.xcconfig"; path = "Target Support Files/Pods-KarabanTests/Pods-KarabanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5AFA5570CD989F48EE158D /* Pods_Karaban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF03D70275E9EEFB2EB434A /* Pods_KarabanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarabanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08AC1E94D9F80954C990139 /* Pods-KarabanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarabanTests.release.xcconfig"; path = "Target Support Files/Pods-KarabanTests/Pods-KarabanTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4DE5EDD28B465FA6CBF39BF /* Pods-Karaban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban.debug.xcconfig"; path = "Target Support Files/Pods-Karaban/Pods-Karaban.debug.xcconfig"; sourceTree = "<group>"; };
+		FA34BAFE32C10339F9A9EAAA /* Pods-Karaban-KarabanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban-KarabanUITests.debug.xcconfig"; path = "Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C2CD6BA99CB4B011335488 /* Pods_Karaban.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F566F314BFEEC464BF64A988 /* Pods_KarabanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479A2B89EF1AF4177951E6D1 /* Pods_Karaban_KarabanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29E1490007F99CBE85C429AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE5EDD28B465FA6CBF39BF /* Pods-Karaban.debug.xcconfig */,
+				008A77699131BAE824604F69 /* Pods-Karaban.release.xcconfig */,
+				FA34BAFE32C10339F9A9EAAA /* Pods-Karaban-KarabanUITests.debug.xcconfig */,
+				21FF015A8FA9F028D1B0A3BB /* Pods-Karaban-KarabanUITests.release.xcconfig */,
+				6F6483CC12979C98E5ADEDC5 /* Pods-KarabanTests.debug.xcconfig */,
+				E08AC1E94D9F80954C990139 /* Pods-KarabanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3DC52C10236A2FAE007F14F8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				3DC52C33236A2FAF007F14F8 /* KarabanTests */,
 				3DC52C3E236A2FAF007F14F8 /* KarabanUITests */,
 				3DC52C1A236A2FAE007F14F8 /* Products */,
+				29E1490007F99CBE85C429AA /* Pods */,
+				F63CEDA75B1AEE57FE2130F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				3DC52C1C236A2FAE007F14F8 /* AppDelegate.swift */,
+				3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */,
 				3DC52C1E236A2FAE007F14F8 /* ViewController.swift */,
 				3DC52C20236A2FAE007F14F8 /* Main.storyboard */,
 				3DC52C26236A2FAF007F14F8 /* Assets.xcassets */,
@@ -128,6 +161,16 @@
 			path = KarabanUITests;
 			sourceTree = "<group>";
 		};
+		F63CEDA75B1AEE57FE2130F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AFA5570CD989F48EE158D /* Pods_Karaban.framework */,
+				120B2A9DABE1BDE73EAA0430 /* Pods_Karaban_KarabanUITests.framework */,
+				BEF03D70275E9EEFB2EB434A /* Pods_KarabanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC52C44236A2FAF007F14F8 /* Build configuration list for PBXNativeTarget "Karaban" */;
 			buildPhases = (
+				187EFC6847702D440DC52AF3 /* [CP] Check Pods Manifest.lock */,
 				3DC52C15236A2FAE007F14F8 /* Sources */,
 				3DC52C16236A2FAE007F14F8 /* Frameworks */,
 				3DC52C17236A2FAE007F14F8 /* Resources */,
+				02ED1070A253442DD82C0633 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC52C47236A2FAF007F14F8 /* Build configuration list for PBXNativeTarget "KarabanTests" */;
 			buildPhases = (
+				B7A654959331FE3367C5435D /* [CP] Check Pods Manifest.lock */,
 				3DC52C2C236A2FAF007F14F8 /* Sources */,
 				3DC52C2D236A2FAF007F14F8 /* Frameworks */,
 				3DC52C2E236A2FAF007F14F8 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC52C4A236A2FAF007F14F8 /* Build configuration list for PBXNativeTarget "KarabanUITests" */;
 			buildPhases = (
+				9B7952E2483090141E7B96C5 /* [CP] Check Pods Manifest.lock */,
 				3DC52C37236A2FAF007F14F8 /* Sources */,
 				3DC52C38236A2FAF007F14F8 /* Frameworks */,
 				3DC52C39236A2FAF007F14F8 /* Resources */,
+				3CFAE31ED0FE75ABBC2853AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC52C2A236A2FAF007F14F8 /* LaunchScreen.storyboard in Resources */,
+				3DC52C50236A3BF5007F14F8 /* GoogleService-Info.plist in Resources */,
 				3DC52C27236A2FAF007F14F8 /* Assets.xcassets in Resources */,
 				3DC52C22236A2FAE007F14F8 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02ED1070A253442DD82C0633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karaban/Pods-Karaban-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karaban/Pods-Karaban-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karaban/Pods-Karaban-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		187EFC6847702D440DC52AF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karaban-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFAE31ED0FE75ABBC2853AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7952E2483090141E7B96C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karaban-KarabanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A654959331FE3367C5435D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KarabanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DC52C15236A2FAE007F14F8 /* Sources */ = {
@@ -434,6 +586,7 @@
 		};
 		3DC52C45236A2FAF007F14F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DE5EDD28B465FA6CBF39BF /* Pods-Karaban.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +605,7 @@
 		};
 		3DC52C46236A2FAF007F14F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008A77699131BAE824604F69 /* Pods-Karaban.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +624,7 @@
 		};
 		3DC52C48236A2FAF007F14F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6483CC12979C98E5ADEDC5 /* Pods-KarabanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +646,7 @@
 		};
 		3DC52C49236A2FAF007F14F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08AC1E94D9F80954C990139 /* Pods-KarabanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +668,7 @@
 		};
 		3DC52C4B236A2FAF007F14F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA34BAFE32C10339F9A9EAAA /* Pods-Karaban-KarabanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +689,7 @@
 		};
 		3DC52C4C236A2FAF007F14F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FF015A8FA9F028D1B0A3BB /* Pods-Karaban-KarabanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
