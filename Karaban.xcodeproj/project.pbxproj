@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D225C7E236B5A6800E34565 /* Cabin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C7D236B5A6800E34565 /* Cabin-SemiBoldItalic.ttf */; };
+		3D225C80236B5A6E00E34565 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C7F236B5A6E00E34565 /* Cabin-SemiBold.ttf */; };
+		3D225C82236B5A7200E34565 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C81236B5A7200E34565 /* Cabin-Regular.ttf */; };
+		3D225C84236B5A7500E34565 /* Cabin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C83236B5A7500E34565 /* Cabin-MediumItalic.ttf */; };
+		3D225C86236B5A7800E34565 /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C85236B5A7800E34565 /* Cabin-Medium.ttf */; };
+		3D225C88236B5A7C00E34565 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C87236B5A7C00E34565 /* Cabin-Italic.ttf */; };
+		3D225C8A236B5A8000E34565 /* Cabin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C89236B5A8000E34565 /* Cabin-BoldItalic.ttf */; };
+		3D225C8C236B5A8300E34565 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C8B236B5A8300E34565 /* Cabin-Bold.ttf */; };
+		3D225C8E236B5AA300E34565 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D225C8D236B5AA300E34565 /* OFL.txt */; };
 		3DC52C1D236A2FAE007F14F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C1C236A2FAE007F14F8 /* AppDelegate.swift */; };
-		3DC52C1F236A2FAE007F14F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C1E236A2FAE007F14F8 /* ViewController.swift */; };
 		3DC52C22236A2FAE007F14F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC52C20236A2FAE007F14F8 /* Main.storyboard */; };
 		3DC52C25236A2FAE007F14F8 /* Karaban.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C23236A2FAE007F14F8 /* Karaban.xcdatamodeld */; };
 		3DC52C27236A2FAF007F14F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC52C26236A2FAF007F14F8 /* Assets.xcassets */; };
@@ -16,6 +24,9 @@
 		3DC52C35236A2FAF007F14F8 /* KarabanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C34236A2FAF007F14F8 /* KarabanTests.swift */; };
 		3DC52C40236A2FAF007F14F8 /* KarabanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C3F236A2FAF007F14F8 /* KarabanUITests.swift */; };
 		3DC52C50236A3BF5007F14F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */; };
+		3DC52C53236A423E007F14F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C52236A423E007F14F8 /* SignupViewController.swift */; };
+		3DC52C57236A4297007F14F8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C56236A4297007F14F8 /* Colors.swift */; };
+		3DC52C59236B44D1007F14F8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC52C58236B44D1007F14F8 /* Design.swift */; };
 		479A2B89EF1AF4177951E6D1 /* Pods_Karaban_KarabanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120B2A9DABE1BDE73EAA0430 /* Pods_Karaban_KarabanUITests.framework */; };
 		95C2CD6BA99CB4B011335488 /* Pods_Karaban.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5AFA5570CD989F48EE158D /* Pods_Karaban.framework */; };
 		F566F314BFEEC464BF64A988 /* Pods_KarabanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF03D70275E9EEFB2EB434A /* Pods_KarabanTests.framework */; };
@@ -42,9 +53,17 @@
 		008A77699131BAE824604F69 /* Pods-Karaban.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban.release.xcconfig"; path = "Target Support Files/Pods-Karaban/Pods-Karaban.release.xcconfig"; sourceTree = "<group>"; };
 		120B2A9DABE1BDE73EAA0430 /* Pods_Karaban_KarabanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaban_KarabanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FF015A8FA9F028D1B0A3BB /* Pods-Karaban-KarabanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karaban-KarabanUITests.release.xcconfig"; path = "Target Support Files/Pods-Karaban-KarabanUITests/Pods-Karaban-KarabanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D225C7D236B5A6800E34565 /* Cabin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-SemiBoldItalic.ttf"; path = "../../../../Downloads/Cabin/Cabin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3D225C7F236B5A6E00E34565 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-SemiBold.ttf"; path = "../../../../Downloads/Cabin/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		3D225C81236B5A7200E34565 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Regular.ttf"; path = "../../../../Downloads/Cabin/Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		3D225C83236B5A7500E34565 /* Cabin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-MediumItalic.ttf"; path = "../../../../Downloads/Cabin/Cabin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3D225C85236B5A7800E34565 /* Cabin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Medium.ttf"; path = "../../../../Downloads/Cabin/Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		3D225C87236B5A7C00E34565 /* Cabin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Italic.ttf"; path = "../../../../Downloads/Cabin/Cabin-Italic.ttf"; sourceTree = "<group>"; };
+		3D225C89236B5A8000E34565 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-BoldItalic.ttf"; path = "../../../../Downloads/Cabin/Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3D225C8B236B5A8300E34565 /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Bold.ttf"; path = "../../../../Downloads/Cabin/Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		3D225C8D236B5AA300E34565 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../Downloads/Cabin/OFL.txt; sourceTree = "<group>"; };
 		3DC52C19236A2FAE007F14F8 /* Karaban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaban.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC52C1C236A2FAE007F14F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DC52C1E236A2FAE007F14F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DC52C21236A2FAE007F14F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DC52C24236A2FAE007F14F8 /* Karaban.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Karaban.xcdatamodel; sourceTree = "<group>"; };
 		3DC52C26236A2FAF007F14F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +76,9 @@
 		3DC52C3F236A2FAF007F14F8 /* KarabanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarabanUITests.swift; sourceTree = "<group>"; };
 		3DC52C41236A2FAF007F14F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DC52C52236A423E007F14F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		3DC52C56236A4297007F14F8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3DC52C58236B44D1007F14F8 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		6F6483CC12979C98E5ADEDC5 /* Pods-KarabanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KarabanTests.debug.xcconfig"; path = "Target Support Files/Pods-KarabanTests/Pods-KarabanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5AFA5570CD989F48EE158D /* Pods_Karaban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karaban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF03D70275E9EEFB2EB434A /* Pods_KarabanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KarabanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,9 +128,29 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3D225C7A236B59F800E34565 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D225C7D236B5A6800E34565 /* Cabin-SemiBoldItalic.ttf */,
+				3D225C7F236B5A6E00E34565 /* Cabin-SemiBold.ttf */,
+				3D225C89236B5A8000E34565 /* Cabin-BoldItalic.ttf */,
+				3D225C8D236B5AA300E34565 /* OFL.txt */,
+				3D225C81236B5A7200E34565 /* Cabin-Regular.ttf */,
+				3D225C87236B5A7C00E34565 /* Cabin-Italic.ttf */,
+				3D225C8B236B5A8300E34565 /* Cabin-Bold.ttf */,
+				3D225C85236B5A7800E34565 /* Cabin-Medium.ttf */,
+				3D225C83236B5A7500E34565 /* Cabin-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		3DC52C10236A2FAE007F14F8 = {
 			isa = PBXGroup;
 			children = (
+				3D225C7A236B59F800E34565 /* Fonts */,
+				3DC52C55236A4287007F14F8 /* Design */,
+				3DC52C54236A4249007F14F8 /* Storyboards */,
+				3DC52C51236A4203007F14F8 /* Signup */,
 				3DC52C1B236A2FAE007F14F8 /* Karaban */,
 				3DC52C33236A2FAF007F14F8 /* KarabanTests */,
 				3DC52C3E236A2FAF007F14F8 /* KarabanUITests */,
@@ -133,8 +175,6 @@
 			children = (
 				3DC52C1C236A2FAE007F14F8 /* AppDelegate.swift */,
 				3DC52C4F236A3BF5007F14F8 /* GoogleService-Info.plist */,
-				3DC52C1E236A2FAE007F14F8 /* ViewController.swift */,
-				3DC52C20236A2FAE007F14F8 /* Main.storyboard */,
 				3DC52C26236A2FAF007F14F8 /* Assets.xcassets */,
 				3DC52C28236A2FAF007F14F8 /* LaunchScreen.storyboard */,
 				3DC52C2B236A2FAF007F14F8 /* Info.plist */,
@@ -159,6 +199,31 @@
 				3DC52C41236A2FAF007F14F8 /* Info.plist */,
 			);
 			path = KarabanUITests;
+			sourceTree = "<group>";
+		};
+		3DC52C51236A4203007F14F8 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				3DC52C52236A423E007F14F8 /* SignupViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		3DC52C54236A4249007F14F8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DC52C20236A2FAE007F14F8 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3DC52C55236A4287007F14F8 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3DC52C56236A4297007F14F8 /* Colors.swift */,
+				3DC52C58236B44D1007F14F8 /* Design.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 		F63CEDA75B1AEE57FE2130F8 /* Frameworks */ = {
@@ -280,10 +345,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D225C86236B5A7800E34565 /* Cabin-Medium.ttf in Resources */,
+				3D225C8C236B5A8300E34565 /* Cabin-Bold.ttf in Resources */,
 				3DC52C2A236A2FAF007F14F8 /* LaunchScreen.storyboard in Resources */,
+				3D225C82236B5A7200E34565 /* Cabin-Regular.ttf in Resources */,
+				3D225C80236B5A6E00E34565 /* Cabin-SemiBold.ttf in Resources */,
+				3D225C88236B5A7C00E34565 /* Cabin-Italic.ttf in Resources */,
+				3D225C84236B5A7500E34565 /* Cabin-MediumItalic.ttf in Resources */,
 				3DC52C50236A3BF5007F14F8 /* GoogleService-Info.plist in Resources */,
+				3D225C8E236B5AA300E34565 /* OFL.txt in Resources */,
 				3DC52C27236A2FAF007F14F8 /* Assets.xcassets in Resources */,
+				3D225C8A236B5A8000E34565 /* Cabin-BoldItalic.ttf in Resources */,
 				3DC52C22236A2FAE007F14F8 /* Main.storyboard in Resources */,
+				3D225C7E236B5A6800E34565 /* Cabin-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +485,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DC52C1F236A2FAE007F14F8 /* ViewController.swift in Sources */,
+				3DC52C53236A423E007F14F8 /* SignupViewController.swift in Sources */,
+				3DC52C57236A4297007F14F8 /* Colors.swift in Sources */,
 				3DC52C1D236A2FAE007F14F8 /* AppDelegate.swift in Sources */,
 				3DC52C25236A2FAE007F14F8 /* Karaban.xcdatamodeld in Sources */,
+				3DC52C59236B44D1007F14F8 /* Design.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
